@@ -33,7 +33,7 @@ export default function Hero() {
         <div className="mt-8 flex flex-wrap gap-4">
           <Link
             href="/catalog"
-            className="bg-brass px-6 py-3 font-mono text-[13px] uppercase tracking-[0.14em] text-obsidian transition-colors hover:bg-brass-bright"
+            className="bg-brass px-6 py-3 font-mono text-[13px] uppercase tracking-[0.14em] text-obsidian transition-colors hover:bg-brass-bright btn-glow"
           >
             Shop the catalog
           </Link>
