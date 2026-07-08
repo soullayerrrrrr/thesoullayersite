@@ -13,7 +13,7 @@ export default function Home() {
       <Hero />
 
       {/* Category strip */}
-      <section className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
+      <section className="mx-auto max-w-6xl px-5 py-24 sm:px-8">
         <div className="flex items-baseline justify-between">
           <h2 className="font-display text-2xl text-bone">Shop by category</h2>
           <Link href="/catalog" className="font-mono text-[12px] uppercase tracking-[0.14em] text-brass-bright hover:text-brass">
@@ -36,7 +36,7 @@ export default function Home() {
       </section>
 
       {/* Featured products */}
-      <section className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
+      <section className="mx-auto max-w-6xl px-5 py-24 sm:px-8">
         <h2 className="font-display text-2xl text-bone">New &amp; noteworthy</h2>
         <div className="mt-8 grid grid-cols-2 gap-x-5 gap-y-10 sm:grid-cols-4">
           {featured.map((p) => (
@@ -47,7 +47,7 @@ export default function Home() {
 
       {/* Founders teaser */}
       <section className="border-y border-line bg-obsidian-2">
-        <div className="mx-auto grid max-w-6xl gap-10 px-5 py-20 sm:grid-cols-2 sm:px-8 sm:py-28">
+        <div className="mx-auto grid max-w-6xl gap-10 px-5 py-28 sm:grid-cols-2 sm:px-8 sm:py-36">
           <div>
             <p className="font-mono text-[12px] uppercase tracking-[0.2em] text-brass">
               Founder&apos;s Story
