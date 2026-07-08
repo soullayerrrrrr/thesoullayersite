@@ -87,7 +87,7 @@ export default function Home() {
           href={site.instagramUrl}
           target="_blank"
           rel="noreferrer"
-          className="mt-7 inline-block bg-brass px-7 py-3 font-mono text-[13px] uppercase tracking-[0.14em] text-obsidian transition-colors hover:bg-brass-bright"
+          className="mt-7 inline-block bg-brass px-7 py-3 font-mono text-[13px] uppercase tracking-[0.14em] text-obsidian transition-colors hover:bg-brass-bright btn-glow"
         >
           Order on Instagram
         </a>
