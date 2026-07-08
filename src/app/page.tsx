@@ -75,7 +75,7 @@ export default function Home() {
       </section>
 
       {/* Order CTA */}
-      <section className="mx-auto max-w-6xl px-5 py-20 text-center sm:px-8">
+      <section className="mx-auto max-w-6xl px-5 py-28 text-center sm:px-8">
         <h2 className="font-display text-3xl text-bone">
           Found something you like?
         </h2>
