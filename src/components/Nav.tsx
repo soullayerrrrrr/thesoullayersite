@@ -25,7 +25,7 @@ export default function Nav() {
             <Link
               key={l.href}
               href={l.href}
-              className="font-mono text-[13px] uppercase tracking-[0.14em] text-bone-dim transition-colors hover:text-brass-bright"
+              className="font-mono text-[13px] uppercase tracking-[0.14em] text-bone-dim transition-colors hover:text-brass-bright glow-hover"
             >
               {l.label}
             </Link>
@@ -48,7 +48,7 @@ export default function Nav() {
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className="py-3 font-mono text-sm uppercase tracking-[0.14em] text-bone-dim"
+              className="py-3 font-mono text-sm uppercase tracking-[0.14em] text-bone-dim transition-colors hover:text-brass-bright glow-hover"
             >
               {l.label}
             </Link>
