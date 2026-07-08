@@ -68,7 +68,7 @@ export default function Home() {
               src="/images/founders.jpg"
               alt="Ankur and Sumit, founders of The Soul Layer"
               fill
-              className="object-cover photo-mono"
+              className="object-cover"
             />
           </div>
         </div>
