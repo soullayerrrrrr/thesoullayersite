@@ -11,7 +11,7 @@ export default function AboutPage() {
           src="/images/founders.jpg"
           alt="The Soul Layer founders"
           fill
-          className="object-cover opacity-70"
+          className="object-cover opacity-70 photo-mono"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/50 to-transparent" />
