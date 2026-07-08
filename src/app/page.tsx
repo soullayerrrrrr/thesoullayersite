@@ -65,8 +65,8 @@ export default function Home() {
           </div>
           <div className="relative aspect-[4/3] w-full self-center overflow-hidden">
             <Image
-              src="/images/dragon.jpg"
-              alt="A Soul Layer print in progress"
+              src="/images/founders.jpg"
+              alt="Ankur and Sumit, founders of The Soul Layer"
               fill
               className="object-cover"
             />
