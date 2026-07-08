@@ -23,7 +23,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-5 py-16 sm:px-8">
+      <section className="mx-auto max-w-3xl px-5 py-24 sm:px-8">
         <p className="font-display text-2xl leading-relaxed text-bone">
           Founded by <span className="text-brass-bright">{site.founders.names[0]}</span> and{" "}
           <span className="text-brass-bright">{site.founders.names[1]}</span>, The Soul Layer
