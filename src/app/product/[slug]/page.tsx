@@ -87,7 +87,7 @@ export default async function ProductPage({
             href={instagramOrderLink(product.name)}
             target="_blank"
             rel="noreferrer"
-            className="mt-8 block w-full bg-brass px-6 py-4 text-center font-mono text-[13px] uppercase tracking-[0.14em] text-obsidian transition-colors hover:bg-brass-bright"
+            className="mt-8 block w-full bg-brass px-6 py-4 text-center font-mono text-[13px] uppercase tracking-[0.14em] text-obsidian transition-colors hover:bg-brass-bright btn-glow"
           >
             Order on Instagram
           </a>
