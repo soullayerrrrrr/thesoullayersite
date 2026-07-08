@@ -18,7 +18,7 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/40 to-obsidian/10" />
 
-      <div className="relative z-10 mx-auto w-full max-w-6xl px-5 pb-16 pt-40 sm:px-8">
+      <div className="relative z-10 mx-auto w-full max-w-6xl px-5 pb-24 pt-48 sm:px-8">
         <p className="font-mono text-[12px] uppercase tracking-[0.2em] text-brass-bright">
           Layer 0001 / Genesis
         </p>
