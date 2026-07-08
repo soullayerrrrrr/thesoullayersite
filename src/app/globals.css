@@ -110,3 +110,22 @@ body {
 .hairline {
   border-color: var(--line);
 }
+.glow-hover {
+  transition: color 200ms ease, text-shadow 200ms ease;
+}
+.glow-hover:hover {
+  color: var(--brass-bright);
+  text-shadow: 0 0 14px rgba(224, 189, 108, 0.45);
+}
+
+.btn-glow {
+  transition: background-color 200ms ease, box-shadow 200ms ease;
+}
+.btn-glow:hover {
+  background: var(--brass-bright);
+  box-shadow: 0 0 26px 2px rgba(224, 189, 108, 0.4);
+}
+
+.photo-mono {
+  filter: grayscale(1) contrast(1.15);
+}
