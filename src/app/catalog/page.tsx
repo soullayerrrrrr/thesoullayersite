@@ -16,7 +16,7 @@ export default async function CatalogPage({
   const list = active ? products.filter((p) => p.category === active) : products;
 
   return (
-    <main className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
+    <main className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
       <p className="font-mono text-[12px] uppercase tracking-[0.2em] text-brass">
         Catalog
       </p>
