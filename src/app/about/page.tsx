@@ -8,7 +8,7 @@ export default function AboutPage() {
     <main>
       <section className="relative flex min-h-[50vh] items-end overflow-hidden border-b border-line">
         <Image
-          src="/images/dragon.jpg"
+          src="/images/founders.jpg"
           alt="The Soul Layer founders"
           fill
           className="object-cover opacity-70"
