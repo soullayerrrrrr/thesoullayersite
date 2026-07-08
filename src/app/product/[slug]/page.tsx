@@ -35,7 +35,7 @@ export default async function ProductPage({
   const hasDiscount = product.compareAtPrice && product.compareAtPrice > product.price;
 
   return (
-    <main className="mx-auto max-w-6xl px-5 py-10 sm:px-8">
+    <main className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
       <Link href="/catalog" className="font-mono text-[12px] uppercase tracking-[0.12em] text-bone-dim hover:text-brass-bright">
         ← Back to catalog
       </Link>
