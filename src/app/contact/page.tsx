@@ -21,7 +21,7 @@ export default function ContactPage() {
         href={site.instagramUrl}
         target="_blank"
         rel="noreferrer"
-        className="mt-8 flex items-center gap-3 bg-brass px-7 py-4 font-mono text-[13px] uppercase tracking-[0.14em] text-obsidian transition-colors hover:bg-brass-bright"
+        className="mt-8 flex items-center gap-3 bg-brass px-7 py-4 font-mono text-[13px] uppercase tracking-[0.14em] text-obsidian transition-colors hover:bg-brass-bright btn-glow"
       >
         <InstagramIcon size={18} />
         Message @{site.instagramHandle}
