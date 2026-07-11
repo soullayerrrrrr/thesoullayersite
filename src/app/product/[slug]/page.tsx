@@ -9,7 +9,7 @@ import ProductGallery from "@/components/ProductGallery";
 export function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
 }
-
+ 
 export async function generateMetadata({
   params,
 }: {
