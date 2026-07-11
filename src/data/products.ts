@@ -43,9 +43,9 @@ const catalog: Product[] = [
     description:
       "Your vehicle's number plate, reproduced as a durable keychain tag. Send your registration number and we print it to match.",
     specs: [
-      { label: "Material", value: "PETG" },
+      { label: "Material", value: "PLA+" },
       { label: "Customization", value: "Any plate number" },
-      { label: "Finish", value: "Matte black + white text" },
+      { label: "Finish", value: "Matte black + white" },
     ],
     images: ["/images/number-plate-1.jpg",
             "/images/number-plate-2.jpg",
@@ -57,13 +57,14 @@ const catalog: Product[] = [
     slug: "soulfire-dragon",
     name: "Soulfire Dragon",
     category: "Collectibles",
-    price: 449,
+    price: 999,
+    compareAtPrice: 1499,
     description:
       "A fully posable dragon with flame that feels real. A desk companion with real presence.",
     specs: [
       { label: "Material", value: "PLA+" },
-      { label: "Length", value: "~28 cm" },
-      { label: "Colors", value: "6 available" },
+      { label: "Height", value: "~10 cm" },
+      { label: "Colors", value: "Black with flame effect" },
     ],
     images: ["/images/dragon-1.jpg",
             "/images/dragon-2.jpg",
