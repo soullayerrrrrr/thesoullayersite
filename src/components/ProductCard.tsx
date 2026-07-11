@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Product } from "@/data/products";
-
+ 
 export default function ProductCard({ product }: { product: Product }) {
   const hasDiscount = product.compareAtPrice && product.compareAtPrice > product.price;
 
