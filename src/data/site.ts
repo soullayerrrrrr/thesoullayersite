@@ -1,10 +1,10 @@
 export const site = {
   name: "The Soul Layer",
   tagline: "From data to something you can hold.",
-  instagramHandle: "thesoullayer", // change to your real handle
-  instagramUrl: "https://instagram.com/thesoullayer",
-  youtubeUrl: "https://youtube.com",
-  linkedinUrl: "https://linkedin.com",
+  instagramHandle: "thesoullayer.in", // change to your real handle
+  instagramUrl: "https://www.instagram.com/thesoullayer.in",
+  youtubeUrl: "https://www.youtube.com/@TheSoulLayer",
+  linkedinUrl: "https://www.linkedin.com/company/thesoullayer",
   whatsappNumber: "", // optional, leave blank to hide
   founders: {
     names: ["Ankur", "Sumit"],
