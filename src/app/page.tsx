@@ -80,7 +80,7 @@ export default function Home() {
           Found something you like?
         </h2>
         <p className="mx-auto mt-3 max-w-md text-bone-dim">
-          Every order goes through Instagram DM — pick your piece, message us,
+          Every order goes through Instagram DM pick your piece, message us,
           and we&apos;ll confirm details and shipping.
         </p>
         <a
