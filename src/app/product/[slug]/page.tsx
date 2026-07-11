@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ProductCard from "@/components/ProductCard";
+import ProductGallery from "@/components/ProductGallery";
 
 export function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
@@ -41,19 +42,7 @@ export default async function ProductPage({
       </Link>
 
       <div className="mt-6 grid gap-10 sm:grid-cols-2 sm:gap-14">
-        <div className="print-reveal aspect-[4/5] w-full bg-obsidian-2">
-          <div className="print-image relative h-full w-full">
-            <Image
-              src={product.image}
-              alt={product.name}
-              fill
-              sizes="(min-width: 640px) 50vw, 100vw"
-              className="object-cover"
-              priority
-            />
-          </div>
-          <span className="layer-line" />
-        </div>
+        <ProductGallery images={product.images} name={product.name} />
 
         <div>
           <p className="font-mono text-[12px] uppercase tracking-[0.14em] text-brass">
