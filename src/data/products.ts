@@ -6,7 +6,7 @@ export type Product = {
   compareAtPrice?: number;
   description: string;
   specs: { label: string; value: string }[];
-  image: string; // path under /public/images or full URL
+  images: string[]; // one or more photo paths, first is the main image
   tag?: "Sale" | "New" | "Bestseller";
 };
 
@@ -26,7 +26,7 @@ export const products: Product[] = [
       { label: "Articulation", value: "12-segment flexi joint" },
       { label: "Pack", value: "2 keychains" },
     ],
-    image: "/images/flexi-cat.jpg",
+    images: ["/images/flexi-cat.jpg"],
     tag: "Sale",
   },
   {
@@ -42,7 +42,7 @@ export const products: Product[] = [
       { label: "Customization", value: "Any plate number" },
       { label: "Finish", value: "Matte black + white text" },
     ],
-    image: "/images/number-plate.jpg",
+    images: ["/images/number-plate.jpg"],
     tag: "Sale",
   },
   {
@@ -57,7 +57,7 @@ export const products: Product[] = [
       { label: "Length", value: "~28 cm" },
       { label: "Colors", value: "6 available" },
     ],
-    image: "/images/dragon.jpg",
+    images: ["/images/dragon.jpg"],
     tag: "Bestseller",
   },
   {
@@ -72,7 +72,7 @@ export const products: Product[] = [
       { label: "Characters", value: "Up to 12" },
       { label: "Colors", value: "10 available" },
     ],
-    image: "/images/name-keychain.jpg",
+    images: ["/images/name-keychain.jpg"],
     tag: "New",
   },
   {
@@ -86,7 +86,7 @@ export const products: Product[] = [
       { label: "Material", value: "PETG" },
       { label: "Dimensions", value: "18 × 9 × 6 cm" },
     ],
-    image: "/images/desk-organizer.jpg",
+    images: ["/images/desk-organizer.jpg"],
   },
   {
     slug: "articulated-fish",
@@ -99,7 +99,7 @@ export const products: Product[] = [
       { label: "Material", value: "PLA+" },
       { label: "Length", value: "~22 cm" },
     ],
-    image: "/images/koi.jpg",
+    images: ["/images/koi.jpg"],
   },
   {
     slug: "geometric-planter",
@@ -112,7 +112,7 @@ export const products: Product[] = [
       { label: "Material", value: "PETG" },
       { label: "Diameter", value: "9 cm" },
     ],
-    image: "/images/planter.jpg",
+    images: ["/images/planter.jpg"],
   },
   {
     slug: "custom-figurine",
@@ -125,7 +125,7 @@ export const products: Product[] = [
       { label: "Material", value: "Resin or PLA+" },
       { label: "Turnaround", value: "5–8 days" },
     ],
-    image: "/images/custom-figurine.jpg",
+    images: ["/images/custom-figurine.jpg"],
   },
   {
     slug: "phone-stand-arch",
@@ -138,7 +138,7 @@ export const products: Product[] = [
       { label: "Material", value: "PLA+" },
       { label: "Colors", value: "8 available" },
     ],
-    image: "/images/phone-stand.jpg",
+    images: ["/images/phone-stand.jpg"],
   },
   {
     slug: "articulated-dinosaur",
@@ -151,7 +151,7 @@ export const products: Product[] = [
       { label: "Material", value: "PLA+" },
       { label: "Length", value: "~24 cm" },
     ],
-    image: "/images/trex.jpg",
+    images: ["/images/trex.jpg"],
     tag: "Bestseller",
   },
   {
@@ -165,7 +165,7 @@ export const products: Product[] = [
       { label: "Material", value: "PETG" },
       { label: "Set", value: "3 hooks" },
     ],
-    image: "/images/hooks.jpg",
+    images: ["/images/hooks.jpg"],
   },
   {
     slug: "custom-logo-keychain",
@@ -178,7 +178,7 @@ export const products: Product[] = [
       { label: "Material", value: "PLA+" },
       { label: "Turnaround", value: "3–5 days" },
     ],
-    image: "/images/logo-keychain.jpg",
+    images: ["/images/logo-keychain.jpg"],
   },
 ];
 
