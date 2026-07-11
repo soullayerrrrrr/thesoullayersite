@@ -27,7 +27,11 @@ const catalog: Product[] = [
       { label: "Articulation", value: "12-segment flexi joint" },
       { label: "Pack", value: "2 keychains" },
     ],
-    images: ["/images/flexi-cat.jpg"],
+    images: ["/images/flexi-cat-1.jpg",
+            "/images/flexi-cat-2.jpg",
+            "/images/flexi-cat-3.jpg",
+            "/images/flexi-cat-4.jpg"
+            ],
     tag: "Sale",
   },
   {
@@ -43,7 +47,10 @@ const catalog: Product[] = [
       { label: "Customization", value: "Any plate number" },
       { label: "Finish", value: "Matte black + white text" },
     ],
-    images: ["/images/number-plate.jpg"],
+    images: ["/images/number-plate-1.jpg",
+            "/images/number-plate-2.jpg",
+            "/images/number-plate-3.jpg"
+            ],
     tag: "Sale",
   },
   {
@@ -58,7 +65,10 @@ const catalog: Product[] = [
       { label: "Length", value: "~28 cm" },
       { label: "Colors", value: "6 available" },
     ],
-    images: ["/images/dragon.jpg"],
+    images: ["/images/dragon-1.jpg",
+            "/images/dragon-2.jpg",
+            "/images/dragon-3.jpg"
+            ],
     tag: "Bestseller",
   },
   {
