@@ -13,7 +13,7 @@ export default function ProductCard({ product }: { product: Product }) {
       <div className="print-reveal aspect-[4/5] w-full bg-obsidian-2">
         <div className="print-image relative h-full w-full">
           <Image
-            src={product.image}
+            src={product.images[0]}
             alt={product.name}
             fill
             sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
