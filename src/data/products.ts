@@ -1,5 +1,6 @@
 export type Product = {
   slug: string;
+  hidden?: boolean;
   name: string;
   category: "Keychains" | "Collectibles" | "Custom Prints" | "Decor";
   price: number;
@@ -12,7 +13,7 @@ export type Product = {
  
 // Edit this list to add, remove, or update products. Each product needs
 // an image in /public/images (or an external URL). Prices are in INR.
-export const products: Product[] = [
+const catalog: Product[] = [
   {
     slug: "flexi-cat-fluffy-tail",
     name: "Flexi Cat Keychain — Fluffy Tail Edition (Pack of 2)",
@@ -46,12 +47,12 @@ export const products: Product[] = [
     tag: "Sale",
   },
   {
-    slug: "articulated-dragon",
-    name: "Articulated Dragon — Flexi Print",
+    slug: "soulfire-dragon",
+    name: "Soulfire Dragon",
     category: "Collectibles",
     price: 449,
     description:
-      "A fully posable dragon with interlocking scales that move independently. A desk companion with real presence.",
+      "A fully posable dragon with flame that feels real. A desk companion with real presence.",
     specs: [
       { label: "Material", value: "PLA+" },
       { label: "Length", value: "~28 cm" },
@@ -62,6 +63,7 @@ export const products: Product[] = [
   },
   {
     slug: "custom-name-keychain",
+    hidden: true,
     name: "Custom Name Tag Keychain",
     category: "Keychains",
     price: 199,
@@ -77,6 +79,7 @@ export const products: Product[] = [
   },
   {
     slug: "desk-organizer-monolith",
+    hidden: true,
     name: "Monolith Desk Organizer",
     category: "Decor",
     price: 699,
@@ -90,6 +93,7 @@ export const products: Product[] = [
   },
   {
     slug: "articulated-fish",
+    hidden: true,
     name: "Articulated Koi — Flexi Print",
     category: "Collectibles",
     price: 399,
@@ -103,6 +107,7 @@ export const products: Product[] = [
   },
   {
     slug: "geometric-planter",
+    hidden: true,
     name: "Faceted Mini Planter",
     category: "Decor",
     price: 349,
@@ -116,6 +121,7 @@ export const products: Product[] = [
   },
   {
     slug: "custom-figurine",
+    hidden: true,
     name: "Custom 3D Figurine (Made to Order)",
     category: "Custom Prints",
     price: 1499,
@@ -129,6 +135,7 @@ export const products: Product[] = [
   },
   {
     slug: "phone-stand-arch",
+    hidden: true,
     name: "Arch Phone Stand",
     category: "Decor",
     price: 279,
@@ -142,6 +149,7 @@ export const products: Product[] = [
   },
   {
     slug: "articulated-dinosaur",
+    hidden: true,
     name: "Articulated T-Rex — Flexi Print",
     category: "Collectibles",
     price: 449,
@@ -156,6 +164,7 @@ export const products: Product[] = [
   },
   {
     slug: "wall-mounted-hooks",
+    hidden: true,
     name: "Layered Wall Hook Set (3)",
     category: "Decor",
     price: 249,
@@ -169,6 +178,7 @@ export const products: Product[] = [
   },
   {
     slug: "custom-logo-keychain",
+    hidden: true,
     name: "Custom Logo / Brand Keychain",
     category: "Custom Prints",
     price: 349,
@@ -182,4 +192,5 @@ export const products: Product[] = [
   },
 ];
 
+export const products = catalog.filter((p) => !p.hidden);
 export const categories = Array.from(new Set(products.map((p) => p.category)));
