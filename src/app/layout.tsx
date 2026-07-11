@@ -13,7 +13,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "The Soul Layer — 3D Printed Keychains & Collectibles",
+  title: "The Soul Layer ♡",
   description:
     "Custom 3D printed keychains, articulated collectibles, and made-to-order prints. From data to something you can hold. Order via Instagram.",
 };
