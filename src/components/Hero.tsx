@@ -26,8 +26,8 @@ export default function Hero() {
           From data to something you can hold.
         </h1>
         <p className="mt-5 max-w-md text-bone-dim">
-          Articulated collectibles, personalized keychains, and made-to-order
-          prints — designed, printed, and shipped by two people who turned a
+          Articulated collectibles, personalized keychains, and made to order
+          prints. designed, printed, and shipped by two people who turned a
           college hobby into a studio.
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
