@@ -55,7 +55,7 @@ const catalog: Product[] = [
   },
   {
     slug: "soulfire-dragon",
-    name: "Soulfire Dragon",
+    name: "The One and Only Soulfire Dragon",
     category: "Collectibles",
     price: 999,
     compareAtPrice: 1499,
