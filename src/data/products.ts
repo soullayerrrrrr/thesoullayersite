@@ -9,7 +9,7 @@ export type Product = {
   images: string[]; // one or more photo paths, first is the main image
   tag?: "Sale" | "New" | "Bestseller";
 };
-
+ 
 // Edit this list to add, remove, or update products. Each product needs
 // an image in /public/images (or an external URL). Prices are in INR.
 export const products: Product[] = [
